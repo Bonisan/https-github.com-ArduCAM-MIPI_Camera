@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     LOG("Setting the mode...");
     //You can use the list_format program to view the supported modes.
 
-// #define CAM_OV2311      //Monochrome
+#define CAM_OV2311      //Monochrome
 #define CAM_0G02B10     //Color
 #if defined(CAM_OV2311)
     res = arducam_set_mode(camera_instance, 0); 
